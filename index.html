@@ -1,73 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
     <title>Styles Conference</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>STYLES CONFERENCE</h1>
-        <nav>
-            <ul>
-                <li>HOME</li>
-                <li>SPEAKERS</li>
-                <li>SCHEDULE</li>
-                <li>VENUE</li>
-                <li>REGISTER</li>
-            </ul>
-        </nav>
+      <nav>
+        <h1>
+          STYLES <br />
+          CONFERENCE
+        </h1>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#speakers">SPEAKERS</a></li>
+          <li><a href="#schedule">SCHEDULE</a></li>
+          <li><a href="#venue">VENUE</a></li>
+          <li><a href="register.html">REGISTER</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <div>
-            <h2>Speakers</h2>
-            <p>We´re happy to welcome over twenty speakers to present on the industr´s latest technologies.<br>Prepare for an inspiration extravaganza.</p>
-        </div>
+      <div id="speakers">
+        <h2>Speakers</h2>
+        <p>
+          We´re happy to welcome over twenty speakers to present on the
+          industr´s latest technologies.<br />Prepare for an inspiration
+          extravaganza.
+        </p>
+      </div>
 
-        <section>
-            <article>
-                <h3>Chris Mills</h3>
-                <h4>HEAVY METAL CODING</h4>
-                <p>In this unconventional talk, Chris Mills will encourage you to pick up some drum sticks in addition to your laptop, and beat out a rhythm or learning - both of code and drum beats! You´ll learn basic JavaScript and CSS, plus beginner´s heavy metal drum patterns. The two are a marriage made in heaven, as nothing is a better antidote to code frustration than beating seven shades of **** out of a drum kit.</p>
-            </article>
-            <article>
-                <h4>ABOUT CHRIS</h4>
-                <p>Chris Mills is a Senior Tech Writer at Mozilla, where he writes docs and demos about open web apps, Firefox OS and related subjects. He loves tinkering around with HTML, CSS, JavaScript and other web technologies, and gives occasional tech talks at conferences and universities.</p>
-            </article>
-            <aside>
-                <p>@chrisdavidmills developer.mozilla.org</p>
-            </aside>
-        </section>
+      <section class="participant">
+        <article>
+          <h3>Chris Mills</h3>
+          <h4>HEAVY METAL CODING</h4>
+          <p>
+            In this unconventional talk, Chris Mills will encourage you to pick
+            up some drum sticks in addition to your laptop, and beat out a
+            rhythm or learning - both of code and drum beats! You´ll learn basic
+            JavaScript and CSS, plus beginner´s heavy metal drum patterns. The
+            two are a marriage made in heaven, as nothing is a better antidote
+            to code frustration than beating seven shades of **** out of a drum
+            kit.
+          </p>
+        </article>
+        <article>
+          <h4>ABOUT CHRIS</h4>
+          <p>
+            Chris Mills is a Senior Tech Writer at Mozilla, where he writes docs
+            and demos about open web apps, Firefox OS and related subjects. He
+            loves tinkering around with HTML, CSS, JavaScript and other web
+            technologies, and gives occasional tech talks at conferences and
+            universities.
+          </p>
+        </article>
+        <aside>
+          <p>@chrisdavidmills developer.mozilla.org</p>
+        </aside>
+      </section>
 
-        <section>
-            <article>
-                <h3>Shay Howe</h3>
-                <h4>LESS IS MORE: HOW CONSTRAINTS CULTIVATE GROWTH</h4>
-                <p>By setting constraints, we force ourselves to be more productive. They help us make decisions. creating focus around the problem we are trying to solve. They improve our consistency, which provides a better experience for our users. And they help us grow, a valuable asset in times of innovation.</p>
-            </article>
-            <article>
-                <h4>ABOUT SHAY</h4>
-                <p>As a designer and fornt-end developer, Shay Howe has a passion for solving problems while building creative and intuitive products. Shay specializes in product design and interface development, specialties which he regularly writes and speaks about.</p>
-            </article>
-            <aside>
-                <p></p>
-            </aside>
-        </section>
+      <section class="participant">
+        <article>
+          <h3>Shay Howe</h3>
+          <h4>LESS IS MORE: HOW CONSTRAINTS CULTIVATE GROWTH</h4>
+          <p>
+            By setting constraints, we force ourselves to be more productive.
+            They help us make decisions. creating focus around the problem we
+            are trying to solve. They improve our consistency, which provides a
+            better experience for our users. And they help us grow, a valuable
+            asset in times of innovation.
+          </p>
+        </article>
+        <article>
+          <h4>ABOUT SHAY</h4>
+          <p>
+            As a designer and fornt-end developer, Shay Howe has a passion for
+            solving problems while building creative and intuitive products.
+            Shay specializes in product design and interface development,
+            specialties which he regularly writes and speaks about.
+          </p>
+        </article>
+        <aside>
+          <p></p>
+        </aside>
+      </section>
     </main>
 
     <footer>
-        <p>c Styles Conference</p>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Speakers</li>
-                <li>Schedule</li>
-                <li>Venue</li>
-                <li>Register</li>
-            </ul>
-        </nav>
+      <nav id="nav_Footer">
+        <p> ©
+          Styles Conference</p>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <li><a href="#register">Register</a></li>
+        </ul>
+      </nav>
     </footer>
-</body>
+  </body>
 </html>
